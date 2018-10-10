@@ -196,8 +196,8 @@ private:
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-private-field"
 #endif
-#ifdef __clang__
    dlink link_;
+#ifdef __clang__
 #pragma clang diagnostic pop
 #endif
    char str_[1];
